@@ -19,10 +19,14 @@ You might want to generate an initial list if your site already has many Webex M
 do not all receive the welcome message and you can focus on just new users. 
 
 To generate an initial list in the webexusers.txt file, invoke the script as follows:
+```
 python3 NotifyNewMeetingsUsers.py INIT admin_userid admin_password site_name access_token
+```
 
 For subsequent runs to check for new users and send them messages, use the following 
+```
 python3 NotifyNewMeetingsUsers.py CHECK admin_userid admin_password site_name access_token
+```
 
 To execute the script on a regular basis from a Linux based server, you can use crontab 
 
