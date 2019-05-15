@@ -1,4 +1,4 @@
-#Notify Webex Meetings user assignment via Webex Teams
+# Notify Webex Meetings user assignment via Webex Teams
 
 This script will notify users in an organization when they have been assigned Webex Meetings licenses and point
 them to resources to help them get started. It notifies users via a direct message in Webex Teams
