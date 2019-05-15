@@ -6,6 +6,7 @@ them to resources to help them get started. It notifies users via a direct messa
 Before using the NotifyNewMeetingsUsers script make sure you install the following python libraries:
 
 requests  https://github.com/requests/requests
+
 webexteamssdk  https://github.com/CiscoDevNet/webexteamssdk
 
 You also need to have a Cisco Webex Teams bot access token to pass to the script as a parameter. 
